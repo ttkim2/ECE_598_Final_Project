@@ -1,0 +1,24 @@
+# Python & virtual environments
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Raw bags, archives, and generated datasets/weights
+raw_zips/
+rosbags_notension/
+rosbags_towel/
+slip_dataset/
+slip_dataset_full/
+*.zip
+*.mcap
+*.csv
+*.npz
+*.pt
+*.pth
+
+# Editor / OS clutter
+.DS_Store
+.vscode/
